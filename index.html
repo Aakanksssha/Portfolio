@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Aakanksha Batra</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >Portfolio</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+
+           <li class="nav-item">
+              <a class="nav-link" href="#Projects">Projects</a>
+            </li>
+
+            <!--<li class="nav-item">
+              <a class="nav-link" href="#Resume"></a>
+            </li> -->
+           
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            
+          </ul>
+        
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-center align-items-center">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">Aakanksha Batra</span>
+          </h2>
+          <p class="text-muted">
+            I am Aakanksha Batra, a B.Tech student  
+            specializing in Internet of Things (IoT). 
+            I have built diverse projects ranging from IoT-based systems to AI integrations, 
+            I have hands-on experience with both front-end and back-end development, 
+            having contributed to multiple projects. I thrive in collaborative environments and am 
+            driven by my passion for technology and continuous learning.
+      
+          </p>
+         
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- expertise section starts -->
+    <section class="expertise mt-5" id="about">
+      <div class="heading text-center">
+        <small>My Expertise</small>
+        <h3>
+          lies in <br />
+          
+        </h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon1.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Programming Languages</h4>
+              <p class="text-muted">
+                I’m proficient in Java, C/C++, Python, HTML, CSS,
+                which allows me to work across a wide variety of projects,
+                 from web development to IoT and AI integrations.
+              </p>
+              <a href="" class="link"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon2.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Web Development</h4>
+              <p class="text-muted">
+                I have strong experience in both front-end (HTML, CSS, JavaScript) 
+                and back-end (SQL, Node.js, PHP) development. 
+                I focus on creating dynamic, responsive websites and applications, 
+                developing user-friendly interfaces.
+              </p>
+              <a href="" class="link"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon3.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>IoT & Embedded Systems</h4>
+              <p class="text-muted">
+                I’ve worked on several IoT projects, 
+                particularly with sensors and microcontrollers
+                 like Arduino and ESP8266. My projects, 
+                 such as the Greenhouse Management System and 
+                 Smart Waste Monitoring System, involved integrating multiple sensors 
+                 and managing real-time data for optimal decision-making.
+              </p>
+              <a href="" class="link"></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon1.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+          </div>
+    </section>
+    <!-- expertise section ends here -->
+
+    
+
+    <!-- Projects section starts here -->
+    <section class="Projects" id="Projects">
+      <div class="heading text-center pt-5">
+        <small></small>
+        <h3>My Projects</h3>
+      </div>
+
+      
+      <div class="Projects-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="chatbot.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Chatbot with Audio Integration</h4>
+                <span class="badge bg-secondary badge-pill">HTML, CSS, JavaScript </span>
+                <span class="badge bg-secondary badge-pill">Express.js, Node.js</span>
+                <span class="badge bg-secondary badge-pill">Web Speech API for voice output</span>
+                
+                <br />
+                <a href="CHATBOT.PORTFOLIO.pdf" target="_blank">Read More</a>
+
+                <br />
+                <a href="https://github.com/Aakanksssha/Chatbot-with-Audio-Integration.git" class="link">GitHub Link</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="DesktopAssistance.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Desktop Assistance</h4>
+                <span class="badge bg-secondary badge-pill">Python</span>
+                <span class="badge bg-secondary badge-pill">pyttsx3</span>
+                <span class="badge bg-secondary badge-pill mb-2">HTML, CSS, JavaScript </span>
+                <br />
+
+                <a href="DesktopAssistance.Portfolio.pdf" target="_blank">Read More</a>
+                <br />
+                <a href="https://github.com/Aakanksssha/Desktop-Assistance.git" class="read-more-btn link">GitHub Link</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="Dashboard.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Green House Monitoring system with Power BI Integration</h4>
+                <span class="badge bg-secondary badge-pill">Arduino UNO</span>
+                <span class="badge bg-secondary badge-pill">Python</span>
+                <span class="badge bg-secondary badge-pill mb-2">Power BI</span
+                ><br />
+
+                <a href="GreenHouse.portfolio.pdf" target="_blank">Read More</a>
+                <br />
+                <a href="https://github.com/Aakanksssha/Green-House-Monitoring-system-with-Power-BI-Integration.git" class="read-more-btn link">GitHub Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-evenly mt-4 px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="GasMonitor.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Gas Monitor: Real-Time SQL Storage</h4>
+                <span class="badge bg-secondary badge-pill">Arduino UNO</span>
+                <span class="badge bg-secondary badge-pill">MySQL</span>
+                <span class="badge bg-secondary badge-pill mb-2">Node-RED</span
+                ><br />
+
+                <a href="GasMonitor.portfolio.pdf" target="_blank">Read More</a>
+                <br />
+                <a href="https://github.com/Aakanksssha/Gas-Monitor-Real-Time-SQL-Storage.git" class="read-more-btn link">GitHub Link</a>
+              </div>
+            </div>
+          </div>
+          
+      </div>
+    </section>
+    <!--Projects section ends here -->
+
+    
+    <!-- contact section starts -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Get in Touch</small>
+        <h3>Any Questions? Feel Free to Contact</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class=""></i>
+            </div>
+            <div class="col-11">
+              <p></p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>+91 8305619122</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-send-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>aakankshabatra2403@gmail.com</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class=""></i>
+            </div>
+            <div class="col-11">
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+          <div class="contact-form">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Mobile No."
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+            </div>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about">About</a>
+        <div class="vr"></div>
+        
+        
+        
+        
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+        <button href="" class="rounded-pill dribble">
+          <i class="bi bi-dribbble"></i>
+        </button>
+        <button href="" class="rounded-pill whatsapp">
+          <i class="bi bi-whatsapp"></i>
+        </button>
+        <button href="" class="rounded-pill behance">
+          <i class="bi bi-behance"></i>
+        </button>
+      </div>
+      <hr class="text-muted my-4" />
+
+      <p>Copyright 2022 Portfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
